@@ -1,5 +1,5 @@
 import { app, port } from './config/express.config.js'
-import { router } from './routes/saludo.api.js'
+import { router } from './routes/personas.api.js'
 
 app.get('/', (req, res) => {
     res.json({'works': true})
